@@ -1,0 +1,113 @@
+/*small devices (phones, 800px and down) */
+@media only screen and (max-width: 800px){
+    .header_div{
+        width: 150px;
+        margin: auto;
+        text-align: center;
+    }
+    li{
+        margin: 5px 0px;
+        padding: 5px;
+    }
+   
+    .extraLargeFont{
+        font-size: 30px;
+    }
+    .LargeFont{
+        font-size: 25px;
+    }
+    .medimFont{
+        font-size: 15px;
+    }
+    .text_div{
+        width: 80%;
+        margin: 10px 10px;   
+    }
+    .sub_div{
+        text-align:left;
+        
+    }
+    .sub_div_01{
+        display: flex;
+        flex-wrap: wrap;
+        width: 90%;
+    }
+    .div_8>img{
+       width: 100px;
+    }
+    .div_8{
+        width: 60%;
+    }
+    #form2{
+        width:100%;
+        padding: 20px 5%;
+        border-radius: 50px;
+        text-align: left;
+    }
+    footer>div{
+        width: 20%;
+    }
+}
+
+
+
+/* large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 800px) {
+    
+    .header_div{
+        width: 80%;
+        margin:auto;
+       
+    }
+
+    header>div>ul{
+        display: flex;
+        justify-content: space-around;
+        width: 50%;
+    }
+    .nav_ul{
+        max-height: 40px;
+        margin: auto;
+    }
+    header>div{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    section{
+        margin: 20px 2%;
+    
+    }
+    .main_div{
+        display: flex;
+        justify-content: space-around;
+        margin: 20px 0px;
+    }
+    .sub_div{
+        width: 40%;
+        
+    }
+
+    .extraLargeFont{
+        font-size: 50px;
+    }
+    .LargeFont{
+        font-size: 30px;
+    }
+    .medimFont{
+        font-size: 20px;
+    }
+    .text_div{
+        width: 50%;
+        margin: auto;
+    }
+    
+    #form2{
+        width:90%;
+        padding: 20px 5%;
+        border-radius: 50px;
+    }
+
+    footer>div{
+        width: 10%;
+    }
+}

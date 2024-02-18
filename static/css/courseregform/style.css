@@ -1,0 +1,134 @@
+body{
+    margin: 0;
+    padding: 0;
+        /*background-color: rgba(217, 250, 215, 0.803);*/
+        background-color: rgba(248, 248, 248, 0.803);
+}
+a{
+  text-decoration: none;
+}
+section{
+  padding: 0 5%;
+}
+font {
+  text-shadow: 2px 2px 5px rgb(53, 133, 50);
+}
+
+#searchbar {
+  background-color: rgb(255, 255, 255);
+  background-image: url('/static/img/courseregform/search.png');
+  background-position: 0px 0px;
+  background-repeat: no-repeat;
+  background-size: 22px;
+  padding: 5px;
+  width: 10%;
+  border: none;
+  transition: width 0.4s ease-in-out;
+}
+
+#searchbar:focus {
+  width: 100%;
+  background-image: none;
+}
+.nav_ul{
+  border-radius: 20px;
+  overflow: hidden;
+}
+li{
+  padding: 10px;
+  
+}
+li:hover {
+  background-color: #313030;
+  color: #f8b954;
+  border-radius: 5px;
+}
+.blueColor{
+    color:#20758a;
+}
+.goldGreenColor{
+    color: rgb(111, 150, 2);
+}
+.pinkColor{
+    color: rgb(201, 19, 79);
+}
+header{
+  background-color: #20758a;
+  font-weight: bolder;
+    min-height: 100px;
+    color: rgb(245, 249, 252);
+    padding: 20px;
+    display: flex;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.ul_sub_div{
+  list-style-image: url('/static/img/courseregform/ul_img.png');
+  font-size: x-large;
+}
+.sub_div{
+    margin: auto;
+    padding: 30px;
+}
+.sub_div>img{
+    width: 100%;
+}
+.text_div{
+    margin: auto;
+}
+.sub_div_01{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+
+/*-----------------*/
+#form2>input[type=text], select {
+    width: 80%;
+    padding: 12px 20px;
+    margin: 4px auto;
+    display: block;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    color: rgb(0, 0, 0);
+    box-sizing: border-box;
+    
+  }
+  #form2>::placeholder{
+    color: rgb(48, 24, 1);
+
+  }
+  .form_submit {
+    display: block;
+    margin:auto;
+    background-color: #20758a;
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+    padding: 14px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  #form2{
+    background-color: rgb(212, 247, 219);
+    font-weight: bolder;
+    color: coral;
+    text-shadow: -1px 0 rgb(0, 0, 0), 0 1px rgb(99, 96, 96), 0 -1px;
+    box-shadow: -10px 15px 20px 0 rgba(6, 140, 102, 0.2), 0 20px 30px 0px rgba(0, 0, 0, 0.19);
+  }
+  
+  .sub_div_01{
+    display: flex;
+    width: 60%;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
